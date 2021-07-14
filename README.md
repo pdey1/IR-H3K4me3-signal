@@ -21,9 +21,4 @@ The toolkit employs the following software dependencies
 # and http://hgdownload.cse.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz
 # - Human total nucleosome library is obtained from NCBI Short Read Archive (SRA) accession number SRP000105.
 # - Histone modified nucleosome libraries are obatined from https://dir.nhlbi.nih.gov/papers/lmi/epigenomes/hgtcell.aspx
-![image](https://user-images.githubusercontent.com/73449138/125560353-d66924d3-eb8f-468d-83c2-1a9462805482.png)
-
-
-
-
 
