@@ -127,7 +127,7 @@ awk '{$1=$2=$3=$4=$5=$6=$7=""; print $0}' Histone_sorted_ext_clean.3prSS.matrix 
 tr -s ',' '\n' < sum5s > sum5s_mod
 tr -s ',' '\n' < sum3s > sum3s_mod
 
-awk 'BEGIN {for (i=1; i<= 580; i++) print i}' > 3prime_bp_number
+awk 'BEGIN {for (i=50; i<= 630; i++) print i}' > 3prime_bp_number
 awk 'BEGIN {for (i=1; i<=580; i++) print -i}' | sort -n > 5prime_bp_number
 
 paste 3prime_bp_number sum3s_mod > sum3s_mod1
