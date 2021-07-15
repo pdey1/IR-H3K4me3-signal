@@ -19,7 +19,7 @@ The toolkit employs the following software dependencies
 # - Get all introns+80 bp in each end from UCSC Table Browser UCSC refSeq table: hg38_refSeq_introns+80bp.bed
 # Notice that first it had to be converted with UCSC liftOver from hg18->hg19 and hg19->hg38
 # The input to LiftOver Utility is obatined from http://hgdownload.cse.ucsc.edu/goldenPath/hg18/liftOver/hg18ToHg19.over.chain.gz 
-# and http://hgdownload.cse.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz
+# - and http://hgdownload.cse.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz
 # - Human total nucleosome library is obtained from NCBI Short Read Archive (SRA) accession number SRP000105.
 # - Histone modified nucleosome libraries are obatined from https://dir.nhlbi.nih.gov/papers/lmi/epigenomes/hgtcell.aspx
 
